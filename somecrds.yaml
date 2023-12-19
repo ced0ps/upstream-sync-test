@@ -21,7 +21,7 @@ spec:
                   type: integer
   scope: Namespaced-or-not
   names:
-    plural: exampleresources
+    plural: resourceexamples
     singular: exampleresource
     kind: ExampleResource
     shortNames:

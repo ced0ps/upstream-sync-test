@@ -6,7 +6,7 @@ spec:
   group: mydomain.com
   versions:
     - name: v1
-      served: true
+      served: false
       storage: true
       schema:
         openAPIV3Schema:
@@ -19,7 +19,7 @@ spec:
                   type: string
                 size:
                   type: integer
-  scope: Namespaced
+  scope: Namespaced-or-not
   names:
     plural: exampleresources
     singular: exampleresource

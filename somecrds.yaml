@@ -3,7 +3,7 @@ kind: CustomResourceDefinition
 metadata:
   name: example-resources.mydomain.com
 spec:
-  group: mydomain.com
+  group: thisisnowadifferenturl.com
   versions:
     - name: v1
       served: false

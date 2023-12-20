@@ -6,7 +6,7 @@ spec:
   group: thisisnowadifferenturl.com
   versions:
     - name: v1
-      served: false
+      served: true
       storage: true
       schema:
         openAPIV3Schema:

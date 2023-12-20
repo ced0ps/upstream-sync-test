@@ -1,7 +1,7 @@
 apiVersion: admissionregistration.k8s.io/v1
-kind: MutatingWebhookConfiguration
+kind: ValidatingWebhookConfiguration
 metadata:
-  name: example-mutating-webhook
+  name: example-validating-webhook
 webhooks:
   - name: example-webhook.mydomain.com
     clientConfig:
